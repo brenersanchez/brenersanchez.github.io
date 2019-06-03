@@ -1,7 +1,6 @@
-{
+# {
     margin: 0px;
     padding: 0px; 
-    width: 960px;
 }
 
 h1 {
@@ -68,7 +67,7 @@ header{
 
 #derecha{
     position: fixed;
-    margin: 90px auto;
+    margin: 120px auto;
     width: 220px;
     border: rgb(167, 161, 161) 7px inset;
     border-radius:30px; 
@@ -95,14 +94,14 @@ header{
 }
 
 #contenido{
-    margin: 90px 240px;
+    margin: 120px 240px;
     width: 560px;
     float: left;
 }
 
 #isquierda{
     position: fixed;
-    margin: 90px 805px;
+    margin: 120px 805px;
     width: 144px;
     border: rgb(167, 161, 161) 7px inset;
     border-radius:30px; 
