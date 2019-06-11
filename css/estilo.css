@@ -1,3 +1,25 @@
+H1{
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+}
+
+.google{
+    font-family: 'Permanent Marker', cursive;
+    color: #09076b;
+    font-size: 30px;
+    
+}
+
+.google1{
+    font-family: 'Satisfy', cursive;
+    color: black;
+    font-size: 20px;
+}
+.carousel-caption{
+    background-color: rgb(255, 255, 255,0.4);
+    border-radius: 50px;
+    
+}
 
 #cabeza{
     background: white;
@@ -17,7 +39,8 @@ section nav{
     border: rgb(167, 161, 161) 7px inset;
     border-radius:30px; 
     float: left;
-    height: 350px;
+    height: 100%;
+    padding: 0px 0px 8px 0px
 }
 
 article{
@@ -36,52 +59,60 @@ h4{
     color: rgb(204, 129, 31);
 }
  
-	.social ul {
-        list-style: none;
-        padding: 5px;
-	}
+.social ul {
+    list-style: none;
+    padding: 5px;
+}
     
-    .social ul li{
-        padding: 8px;
-    }
+.social ul li{
+    padding: 8px;
+}
 
-	.social ul li a {
-        display: inline-block;
-        border-radius:0px 15px 15px 0px; 
-		color:#fff;
-		background: #000;
-		text-decoration: none;
-		-webkit-transition:all 500ms ease;
-		-o-transition:all 500ms ease;
-		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
-	}
- 
-	.social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
-	.social ul li .icon-twitter {background: #00abf0;}
-	.social ul li .icon-googleplus {background: #ae181f;}
-	.social ul li .icon-pinterest {background: paleturquoise;}
-	.social ul li .icon-mail {background: #6ccf33;}
- 
-	.social ul li a img:hover {
-		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
-        width: 60px;
-        height: 60px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
-        border-radius:0px 15px 15px 0px;
-    }
-    
-    footer{
-        background: white;
-        width: 100%;
-        height: 50px;
-        bottom: 0;
-        position: fixed;
-        text-align: center;
-        padding: 10px;
-        font-size: 20px;
-        letter-spacing: 4px; 
-    }
+.social ul li a {
+    display: inline-block;
+    border-radius:0px 15px 15px 0px; 
+    color:#fff;
+    background: #000;
+    text-decoration: none;
+    -webkit-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+}
+
+.social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+.social ul li .icon-twitter {background: #00abf0;}
+.social ul li .icon-googleplus {background: #ae181f;}
+.social ul li .icon-pinterest {background: paleturquoise;}
+.social ul li .icon-mail {background: #6ccf33;}
+
+.social ul li a img:hover {
+    background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+    width: 60px;
+    height: 60px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+    border-radius:0px 15px 15px 0px;
+}
+
+footer{
+    background: white;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    letter-spacing: 4px; 
+}
+
 p{
     text-align: justify;
     font: 14px;
     color: navy;
+}
+
+form label{
+    text-align: justify;
+    font-size: 15px;
+    font-weight: bold;
+
 }
